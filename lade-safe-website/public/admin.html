@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin-Bereich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h2>Dokumente hochladen</h2>
+    <select id="customer">
+      <option value="SWM">Stadtwerke München</option>
+      <option value="SWLB">Stadtwerke Ludwigsburg</option>
+      <option value="SWD">Stadtwerke Ditzingen</option>
+    </select>
+    <input type="file" id="file">
+    <button onclick="uploadFile()">Hochladen</button>
+    <p id="uploadMessage"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
